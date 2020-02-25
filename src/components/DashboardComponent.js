@@ -10,7 +10,8 @@ export const DashboardComponent = () => {
                 <Col span={4}>
 
                     <span className="icon-container">
-                        <Title level={4} style={{ marginLeft: 25 }}> 200+ Volunteers</Title>
+                        <Title level={4} style={{ marginLeft: 25 }}>
+                        200+ Volunteers</Title>
                         <Icon type="user" />
                     </span>
                 </Col>

@@ -60,6 +60,7 @@ export const BarChartComponent = ({ horizontalChart1, horizontalChart2 }) => {
                                     boxWidth: 10
                                 }
                             },
+
                             scales: {
                                 yAxes: [{
                                     gridLines: {

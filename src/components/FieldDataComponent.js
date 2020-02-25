@@ -1,5 +1,6 @@
 import React from 'react'
-import { Row, Col, Icon, Button, Modal, Typography, Form, InputNumber, Input, Select } from 'antd'
+import { Row, Col, Icon, Button, Modal, Typography,
+    Form, InputNumber, Input, Select } from 'antd'
 const { Text } = Typography
 const { Option } = Select
 export const FieldDataComponent = (props) => {

@@ -73,12 +73,7 @@ export const FieldDataTableComponent = ({ observationData }) => {
             dataIndex: 'healthZone',
             key: 'healthZone',
         },
-        // {
-        //     title: 'Action',
-        //     dataIndex: '',
-        //     key: 'edit',
-        //     render: () => <a onClick={(text, record) => console.log(record.key)}>Edit</a>
-        // },
+        
     ];
     return (
         <div>
