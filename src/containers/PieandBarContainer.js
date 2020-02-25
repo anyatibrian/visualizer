@@ -21,16 +21,20 @@ class PieandChartBarContainer extends Component {
                     }
                 ]
             },
+
             pieChart2: {
-                labels: ['Number of people visited', 'Total Population'],
+                labels: ['Number of people visited',
+                'Total Population'],
                 datasets: [
                     {
                         data: [208, 4460],
-                        backgroundColor: ['#3282b8', '#ff5d6c']
+                        backgroundColor: ['#3282b8',
+                        '#ff5d6c']
                     }
                 ]
 
             },
+
             bargraph1: {
                 labels: [],
                 datasets: [
@@ -86,7 +90,8 @@ class PieandChartBarContainer extends Component {
                     <Row>
                         <Col span={8}></Col>
                         <Col span={8}>
-                            <Text style={{ fontSize: 18, fontWeight: 'lighter', textAlign: 'center' }}>·· © 2020 Visualizer ··</Text>
+                            <Text style={{ fontSize: 18, fontWeight: 'lighter',
+                            textAlign: 'center' }}>·· © 2020 Visualizer ··</Text>
                         </Col>
                         <Col span={8}></Col>
                     </Row>

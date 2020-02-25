@@ -134,7 +134,7 @@ export const BarChartComponent = ({ horizontalChart1, horizontalChart2 }) => {
                         </tbody>
                     </table>
                     <Typography>
-                        <Text style={{ fontWeight: 'bold' }}>BAITA  HEALTH ZONE</Text>
+                        <Text style={{ fontWeight: 'bold' }}>ABAITA  HEALTH ZONE</Text>
                     </Typography>
                     <table >
                         <thead>

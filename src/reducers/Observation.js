@@ -19,16 +19,19 @@ export const Observation = (state = initialState, action) => {
                 ...state,
                 successMessage: action.payload
             }
+
         case FETCHOBSERVATION:
             return {
                 ...state,
                 observationsData: action.payload
             }
+
         case GETOBSERVATIONBYZONE:
             return {
                 ...state,
                 observationByzone: action.payload
             }
+            
         default:
             return state
     }

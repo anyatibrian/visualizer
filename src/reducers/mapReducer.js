@@ -12,11 +12,13 @@ const initialState = {
  */
 export const getGeoJSONData = (state = initialState, action) => {
     switch (action.type) {
+        
         case LOAD_MAP_DATA:
             return {
                 ...state,
                 GeoJSONDATA: action.payload
             }
+
         default:
             return state
     }

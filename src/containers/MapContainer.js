@@ -41,7 +41,8 @@ class MapContainer extends Component {
                     <Row>
                         <Col span={8}></Col>
                         <Col span={8}>
-                            <Text style={{ fontSize: 18, fontWeight: 'lighter', textAlign: 'center' }}>·· © 2020 Visualizer ··</Text>
+                            <Text style={{ fontSize: 18, fontWeight: 'lighter',
+                            textAlign: 'center' }}>·· © 2020 Visualizer ··</Text>
                         </Col>
                         <Col span={8}></Col>
                     </Row>

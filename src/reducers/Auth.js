@@ -16,6 +16,7 @@ const initialState = {
  */
 export const AuthReducer = (state = initialState, action) => {
     switch (action.type) {
+        
         case AUTH_SUCCESS:
             return {
                 ...state,
@@ -23,6 +24,7 @@ export const AuthReducer = (state = initialState, action) => {
                 loggedOut: false,
                 authSuccess: action.payload
             }
+
         case AUTH_INFO:
             return {
                 ...state,
@@ -36,6 +38,7 @@ export const AuthReducer = (state = initialState, action) => {
                 loggedOut: true,
                 loggedin: false
             }
+
         case AUTH_ERROR: {
             return {
                 ...state,
@@ -44,6 +47,7 @@ export const AuthReducer = (state = initialState, action) => {
                 authError: action.payload
             }
         }
+
         default:
             return state
     }
