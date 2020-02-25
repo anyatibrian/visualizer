@@ -61,7 +61,8 @@ class FieldDataContainer extends Component {
         if (!loggedIn) return <Redirect to="/" />
         return (
             <Layout>
-                <Header style={{ background: 'white', borderBottom: " 1px solid gainsboro" }}>
+                <Header style={{ background: 'white',
+                borderBottom: " 1px solid gainsboro" }}>
                     <HeaderComponent></HeaderComponent>
                 </Header>
                 <Layout>
@@ -92,7 +93,8 @@ class FieldDataContainer extends Component {
                     <Row>
                         <Col span={8}></Col>
                         <Col span={8}>
-                            <Text style={{ fontSize: 18, fontWeight: 'lighter', textAlign: 'center' }}>·· © 2020 Visualizer ··</Text>
+                            <Text style={{ fontSize: 18, fontWeight: 'lighter',
+                            textAlign: 'center' }}>·· © 2020 Visualizer ··</Text>
                         </Col>
                         <Col span={8}></Col>
                     </Row>
@@ -106,4 +108,5 @@ const mapStateToProps = state => ({
     successMessage: state.observations.successMessage,
     loggedIn: state.auth.loggedin
 })
-export default connect(mapStateToProps, { CreateObservationData, FetchObservation })(Form.create()(FieldDataContainer))
+export default connect(mapStateToProps, 
+    { CreateObservationData, FetchObservation })(Form.create()(FieldDataContainer))

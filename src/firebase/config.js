@@ -2,6 +2,7 @@
 import firebase from 'firebase/app'
 import 'firebase/firestore'
 import 'firebase/auth'
+
 // inital configuration of firebase to the project
 const firebaseConfig = {
     apiKey: "AIzaSyDFj5W1gYwDSOjOlgEaElUfm-gJR2Zthlo",
@@ -13,6 +14,7 @@ const firebaseConfig = {
     appId: "1:1037403182244:web:f3875cb18a9f8d72174231",
     measurementId: "G-6RRGRPF2H0"
 };
+
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
 firebase.firestore().settings({})

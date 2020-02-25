@@ -19,7 +19,8 @@ class MapContainer extends Component {
         if (!loggedIn) return <Redirect to="/" />
         return (
             <Layout>
-                <Header style={{ background: '#ff5d6c', borderBottom: " 1px solid gainsboro" }}>
+                <Header style={{ background: '#ff5d6c',
+                borderBottom: " 1px solid gainsboro" }}>
                     <HeaderComponent></HeaderComponent>
                 </Header>
                 <Layout>

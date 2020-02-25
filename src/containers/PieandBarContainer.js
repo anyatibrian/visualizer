@@ -65,7 +65,8 @@ class PieandChartBarContainer extends Component {
         if (!loggedIn) return <Redirect to="/" />
         return (
             <Layout>
-                <Header style={{ background: 'white', borderBottom: " 1px solid gainsboro" }}>
+                <Header style={{ background: 'white',
+                borderBottom: " 1px solid gainsboro" }}>
                     <HeaderComponent></HeaderComponent>
                 </Header>
                 <Layout>

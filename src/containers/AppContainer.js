@@ -136,7 +136,8 @@ class AppContainer extends Component {
         if (!loggedIn) return <Redirect to="/" />
         return (
             <Layout>
-                <Header style={{ background: 'white', borderBottom: " 1px solid gainsboro" }}>
+                <Header style={{ background: 'white',
+                borderBottom: " 1px solid gainsboro" }}>
                     <HeaderComponent
                         signOutUsers={this.signOutUsers}
                     ></HeaderComponent>
@@ -152,7 +153,6 @@ class AppContainer extends Component {
                             margin: 0,
                             minHeight: 280,
                         }}>
-                            {/* <DashboardComponent style={{ marginTop: '100px' }} /> */}
                             <Row>
                                 <Col span={0}>
                                 </Col>
@@ -203,7 +203,8 @@ class AppContainer extends Component {
                     <Row>
                         <Col span={8}></Col>
                         <Col span={8}>
-                            <Text style={{ fontSize: 18, fontWeight: 'lighter', textAlign: 'center' }}>·· © 2020 Visualizer ··</Text>
+                            <Text style={{ fontSize: 18, fontWeight: 'lighter',
+                            textAlign: 'center' }}>·· © 2020 Visualizer ··</Text>
                         </Col>
                         <Col span={8}></Col>
                     </Row>
