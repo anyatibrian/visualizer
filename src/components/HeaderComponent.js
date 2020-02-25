@@ -14,7 +14,8 @@ const HeaderComponent = ({ signOut, loggedOut, history }) => {
         < Row style={{ background: 'white', height: '50px' }
         }>
             <Col span={12}>
-                <img src={Logo} width="100px" style={{ marginLeft: 30 }} height="80px" />
+                <img src={Logo} width="100px"
+                style={{ marginLeft: 30 }} height="80px" />
             </Col>
             <Col span={4}>
             </Col>
